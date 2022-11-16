@@ -17,7 +17,7 @@
     ],
     "main": "./dist/fakejs.umd.cjs",
     "module": "./dist/fakejs.js",
-    "types": "./dist/main.d.ts",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
             "import": "./dist/fakejs.js",
@@ -25,7 +25,7 @@
         }
     },
     "scripts": {
-        "dev": "vite",
+        "dev": "node example/index.cjs",
         "build": "vue-tsc && vite build",
         "release": "npm run build && npm publish"
     },
