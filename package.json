@@ -1,5 +1,5 @@
 {
-    "name": "fakejs",
+    "name": "@saatana97/fakejs",
     "private": false,
     "version": "0.0.1",
     "repository": {
@@ -27,7 +27,7 @@
     "scripts": {
         "dev": "node example/index.cjs",
         "build": "vue-tsc && vite build",
-        "release": "npm run build && npm publish"
+        "release": "npm run build && npm publish --access=public"
     },
     "dependencies": {},
     "devDependencies": {
