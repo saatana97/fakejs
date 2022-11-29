@@ -5,7 +5,7 @@ import { number } from "..";
  * @param width 图片宽度
  * @param height 图片年高度
  * @param color 指定图片颜色
- * @returns 图片数据
+ * @returns 随机图片数据
  */
 const fn = (
     width: number = 100,

@@ -2,6 +2,7 @@ import number from "./number";
 
 /**
  * 生成随机中文
+ * @returns 随机中文
  */
 const fn = (): string => {
     let str = "\\u" + new Number(number(19968, 40869)).toString(16);

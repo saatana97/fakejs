@@ -8,7 +8,7 @@ const surnname =
     );
 /**
  * 生成随机中文姓名
- * @returns 中文姓名
+ * @returns 随机中文姓名
  */
 const fn = () => {
     let res = item(surnname);
