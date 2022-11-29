@@ -1,7 +1,7 @@
 {
     "name": "@saatana97/fakejs",
     "private": false,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "github",
         "url": "https://github.com/saatana97/fakejs"
